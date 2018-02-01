@@ -8,9 +8,9 @@ namespace Lektion01
 {
     public class Calculator
     {
-        public double Add(double a, double b)
+        public double Add(double a, double be)
         {
-            return a + b;
+            return a + be;
         }
 
         public double Subtract(double a, double b)
