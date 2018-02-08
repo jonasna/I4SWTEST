@@ -17,7 +17,15 @@ namespace Lektion01.UnitTests
 
             Assert.That(uut.Add(2,4), Is.EqualTo(6));
         }
+        
+        [Test]
+        public void Subtract_0And0Returns1()
+        {
+            var uut = new Calculator();
 
+            Assert.That(uut.Subtract(0,0), Is.EqualTo(1));
+        }
+        
         [Test]
         public void Add_Minus5And2_ReturnsMinus3()
         {
