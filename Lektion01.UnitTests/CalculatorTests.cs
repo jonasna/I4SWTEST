@@ -44,6 +44,7 @@ namespace Lektion01.UnitTests
 
         [TestCase(3, -5, 8)]
         [TestCase(-3,-3, 0)]
+        [TestCase(6,3,3)]
         public void Subtract_Multiple_ReturnsCorrect(double a, double b, double c)
         {
             var uut = new Calculator();
