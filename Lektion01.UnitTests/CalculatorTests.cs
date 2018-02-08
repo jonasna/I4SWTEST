@@ -19,14 +19,6 @@ namespace Lektion01.UnitTests
         }
         
         [Test]
-        public void Subtract_0And0Returns1()
-        {
-            var uut = new Calculator();
-
-            Assert.That(uut.Subtract(0,0), Is.EqualTo(1));
-        }
-        
-        [Test]
         public void Add_Minus5And2_ReturnsMinus3()
         {
             var uut = new Calculator();
